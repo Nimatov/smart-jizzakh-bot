@@ -1,6 +1,6 @@
 import { Telegraf, Markup } from 'telegraf';
-const BOT_TOKEN = '8768334829:AAGuVPzYBFFALuJR1byF7Eiycos0bLHJ184';
-const ADMIN_CHAT_ID = '5057008823';
+const BOT_TOKEN = process.env.BOT_TOKEN || '8768334829:AAGuVPzYBFFALuJR1byF7Eiycos0bLHJ184';
+const ADMIN_CHAT_ID = process.env.ADMIN_CHAT_ID || '5057008823';
 const SALES_PHONE = '+998 90 000-00-00';
 const SALES_TG = '@smart_jizzakh';
 if(BOT_TOKEN.includes('ВАШ_')) {
