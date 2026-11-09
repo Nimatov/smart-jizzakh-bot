@@ -1,0 +1,13 @@
+{
+  "name": "smart-jizzakh-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Smart Jizzakh Real Estate",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  }
+}
